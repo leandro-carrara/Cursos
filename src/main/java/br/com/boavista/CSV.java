@@ -42,7 +42,6 @@ public class CSV {
                 sqlInsert.setString(3, dados[2]);
                 sqlInsert.setString(4, dados[3]);
                 sqlInsert.setString(5, dados[4]);
-//                sqlInsert.setString(6, dados[5]);
                 
                 System.out.println("SqlInsert " + sqlInsert.toString());
                 sqlInsert.executeUpdate();
